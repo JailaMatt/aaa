@@ -12,21 +12,4 @@ def setup():
 def draw():
     if mousePressed and mouseX > 158:
        line(pmouseX, pmouseY, mouseX, mouseY)
-    if mouseX <= 200 and mouseY >= 100:
-       stroke(0, 0, 99)
-    if mouseX <= 100 and mouseY >= 200:
-       stroke(255, 0, 0)
-
-def mouseClicked():
-    if mouseX > 200:
-        if mouseY < 100:
-          stroke(255, 0, 0)
-        else:
-          stroke(0, 255, 0)
        
-    
-    
-        
-    
-
-    
